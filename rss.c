@@ -1,4 +1,13 @@
-<HEADER FILES>
+
+#include "contiki.h"
+#include stddef.h /* For offsetof */
+#include stdio.h
+#include "contiki-conf.h"
+#include "net/rime.h"
+#include "net/netstack.h"
+#include "cc2420.h"
+#include "cc2420_const.h"
+
 
 static struct collect_conn tc;
 
